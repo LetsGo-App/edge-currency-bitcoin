@@ -1,5 +1,5 @@
 const bcoinInfo = {
-  type: 'divicoin',
+  type: 'divi',
   magic: 0x00000000,
   formats: ['bip44', 'bip32'],
   keyPrefix: {
@@ -17,7 +17,7 @@ const bcoinInfo = {
 }
 
 const engineInfo = {
-  network: 'divicoin',
+  network: 'divi',
   currencyCode: 'DIVI',
   gapLimit: 10,
   defaultFee: 1000,
@@ -44,9 +44,9 @@ const currencyInfo = {
   // Basic currency information:
   currencyCode: 'DIVI',
   displayName: 'DIVI',
-  pluginId: 'divicoin',
+  pluginId: 'divi',
   denominations: [{ name: 'DIVI', multiplier: '100000000', symbol: 'Ɗ' }],
-  walletType: 'wallet:divicoin',
+  walletType: 'wallet:divi',
 
   // Configuration options:
   defaultSettings: {
@@ -65,4 +65,4 @@ const currencyInfo = {
   transactionExplorer: 'https://chainz.cryptoid.info/divi/tx.dws?%s.htm'
 }
 
-export const divicoin = { bcoinInfo, engineInfo, currencyInfo }
+export const divi = { bcoinInfo, engineInfo, currencyInfo }

@@ -10,6 +10,7 @@ import { bitcoinsv } from './bitcoinsv.js'
 import { bitcoinTestnet } from './bitcointestnet.js'
 import { dash } from './dash.js'
 import { digibyte } from './digibyte.js'
+import { divi } from './divi.js'
 import { dogecoin } from './dogecoin.js'
 import { eboost } from './eboost.js'
 import { feathercoin } from './feathercoin.js'
@@ -21,7 +22,6 @@ import { smartcash } from './smartcash.js'
 import { ufo } from './ufo.js'
 import { vertcoin } from './vertcoin.js'
 import { zcoin } from './zcoin.js'
-import { divicoin } from './divicoin.js'
 
 export const allInfo = [
   badcoin,
@@ -34,6 +34,7 @@ export const allInfo = [
   bitcoinTestnet,
   dash,
   digibyte,
+  divi,
   dogecoin,
   eboost,
   feathercoin,
@@ -44,6 +45,5 @@ export const allInfo = [
   smartcash,
   ufo,
   vertcoin,
-  zcoin,
-  divicoin
+  zcoin
 ]
