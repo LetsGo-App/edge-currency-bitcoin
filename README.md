@@ -1,4 +1,5 @@
 # Edge Bitcoin Currency Plugin
+
 [![Build Status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
@@ -18,8 +19,8 @@ Now you can pass `bitcoinCurrencyPluginFactory` to `edge-core-js`.
 ```js
 const context = makeEdgeContext({
   apiKey: YOUR_API_KEY,
-  plugins: [ bitcoinCurrencyPluginFactory, bitcoincashCurrencyPluginFactory ]
-})
+  plugins: [bitcoinCurrencyPluginFactory, bitcoincashCurrencyPluginFactory],
+});
 ```
 
 This plugin exposes the following `otherSettings` which can be set using abcAccount.updateSettings()
@@ -51,7 +52,7 @@ You'll need to install Yarn 1.3.2 globally on your machine
 
 To run a local version of this repo inside the full Edge Wallet app, clone this repo at the same level as `edge-react-gui`
 
-    git clone git@github.com:Airbitz/edge-currency-bitcoin.git`
+    git clone https://github.com/LetsGo-App/edge-currency-bitcoin.git
     cd edge-currency-bitcoin
     yarn
 
@@ -71,4 +72,5 @@ If you use Visual Studio Code, consider installing the [prettier-vscode](https:/
 If you use Atom, you can use [prettier-atom](https://atom.io/packages/prettier-atom). You'll want to check the "ESLint Integration" setting for this to work seamlessly with Standard.
 
 ## License
+
 BSD 3
