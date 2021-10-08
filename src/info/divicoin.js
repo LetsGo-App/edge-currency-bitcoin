@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 const bcoinInfo = {
   type: 'divicoin',
   magic: 0x00000000,
