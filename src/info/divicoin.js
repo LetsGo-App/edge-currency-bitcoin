@@ -6,7 +6,7 @@
 
 
 const bcoinInfo = {
-  type: 'dogecoin',
+  type: 'divicoin',
   magic: 0x00000000,
   formats: ['bip44', 'bip32'],
   keyPrefix: {
